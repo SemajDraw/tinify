@@ -53,9 +53,7 @@ const argv = yargs
   .help()
   .alias("help", "h").argv;
 
-const { apiKey, fileName, inputDir, entireDirectory } = argv;
-
-const outputDir = argv.outputDir ?? `${inputDir}/compressed`;
+const { apiKey, fileName, inputDir, outputDir, entireDirectory } = argv;
 
 // Set the tinify api key from the args
 tinify.key = apiKey;
