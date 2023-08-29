@@ -1,0 +1,12 @@
+{
+  "name": "tinify",
+  "version": "1.0.0",
+  "description": "Compress Images",
+  "main": "compress.js",
+  "author": "James Ward",
+  "license": "MIT",
+  "dependencies": {
+    "tinify": "^1.7.1",
+    "yargs": "^17.7.2"
+  }
+}
