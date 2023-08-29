@@ -23,6 +23,6 @@ Entire Directory - supported extensions (jpg | jpeg | png | svg | webp | ico | t
 $ node compress.js \
   --k YOUR_API_KEY \
   --i /path/to/input/directory \
-  --o /path/to/output/directory \
+  --o /path/to/output/directory/compressed \
   --e true
 ```
